@@ -1,0 +1,65 @@
+/**index.wxss**/
+.header{
+  text-align: center;
+  font-size: 40rpx;
+  color: #ae9e84;
+  margin-bottom: 40px;
+  width:100%;
+  position: relative;
+  height:50px;
+}
+
+.header::after{
+  content:'起床神器';
+  position: absolute;
+  width: 20rem;
+  z-index: 1;
+  text-align: center;
+  color: rgba(168, 20, 20, 0.349);
+  font-size: 120rpx;
+  left: 0;
+  bottom:-50px;
+}
+
+.userinfo-nickname {
+  color: #a38e6d;
+}
+
+/*输入部分*/
+.ipt-main{
+  border: 1rpx solid #eee;
+  border-radius: 5px;
+  height: 80rpx;
+  padding: 10rpx 15px;
+  font-size: 30rpx;
+  width: 610rpx;
+  display: block;
+}
+
+.cnt{
+  width: 400rpx;
+}
+
+.ft-area{  
+  padding: 20rpx;
+ text-align:center;
+}
+
+.btn{  
+  border-radius: 5px;
+  font-size: 30rpx;
+  line-height: 50rpx;
+  display: block;
+  background: #6fa6cf;
+}
+.btn-submit{
+  color: #fff;
+  flex: 1;
+  margin-right:10rpx;
+}
+.btn-hover{
+  background: #a2c7e2;
+}
+.btn-cancel{
+  background: #666;
+}
